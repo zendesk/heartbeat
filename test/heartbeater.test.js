@@ -1,6 +1,6 @@
 var assert = require('assert'),
 
-    Heartbeat = require('../heartbeat.js');
+    Heartbeat = require('../heartbeater.js');
 
 exports['given a heartbeat'] = {
 

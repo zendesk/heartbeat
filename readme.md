@@ -8,30 +8,30 @@ This is useful for something like:
 
 ## API
 
-### heartbeat.interval(ms)
+### heartbeater.interval(ms)
 
 Set the interval lenght for the heartbeat.
 
-### heartbeat.start() / heartbeat.resume()
+### heartbeater.start() / heartbeat.resume()
 
 Start or resume the heartbeat.
 
-### heartbeat.nextTimeout(millis)
+### heartbeater.nextTimeout(millis)
 
 Change the trigger time of the next timeout. For example, in order to guarantee that first heartbeat occurs within a shorter amount of time than average.
 
-### heartbeat.add(cb)
+### heartbeater.add(cb)
 
 Add a callback to the heartbeat actions.
 
-### heartbeat.remove(cb)
+### heartbeater.remove(cb)
 
 Remove a callback from the heartbeat actions.
 
-### heartbeat.pause()
+### heartbeater.pause()
 
 Pause the heartbeat.
 
-### heartbeat.clear()
+### heartbeater.clear()
 
 Clear the heartbeat and all callback actions.
